@@ -10,7 +10,7 @@
 body {
     background: #020b11;
     color: white;
-       overflow: hidden;
+       /* overflow: hidden; */
 
 }
 
@@ -190,7 +190,7 @@ span::before {
 
 .home-sci {
     position: absolute;
-    bottom: 15px;
+    /* bottom: 20px; */
     width: 220px;
     justify-content: space-between;
     display: flex;
