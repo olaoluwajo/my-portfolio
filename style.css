@@ -60,13 +60,14 @@ body {
     align-items: center;
     height: 85vh;
     padding: 0 10%;
+    /* border: #00FF00 2px solid; */
     /* background: yellow; */
 }
 
 .home-content {
     /* background: yellow; */
     max-width: 650px;
-
+    /* border: #00FF00 2px solid; */
 }
 
 .home-content h1 {
@@ -77,47 +78,52 @@ body {
 }
 
 .home-content h3{
+    display: flex;
     font-size: 32px;
     font-weight: 700;
-    background: #61B0FF;
-    background: linear-gradient(to right, #61B0FF 0%, #00FF00 50%, #031a6b 100%);
+    /* background: #61B0FF; */
+    background: linear-gradient(to right, #61B0FF 0%, #00FF00 25%, #031a6b 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-   
-    
-    
-    color: transparent;
-    
+    -webkit-text-fill-color:  transparent ;
     display: flex;
-    
 }
 
 
+
+
 span::before { 
-    content: "Developer"; 
-    animation: animate 4s  infinite ; 
+     content: "";
+    animation: animate 5s  infinite ; 
     padding-left: 10px; 
-   
+    /* font-weight: 600; */
+    
+}  
 
-} 
 
-
-
+ 
 @keyframes animate { 
 
-    0% { 
+    0% {
+        background:#ff0505 ; 
+        -webkit-background-clip: text;
         content: "Developer"; 
+        /* color: #00FF00; */
     } 
 
   
-    75% { 
+    100% { 
+        background: linear-gradient(to right, white 0%, #ff0505 100%) ; 
+        -webkit-background-clip: text;
         content: "Engineer"; 
+        /* color: #e6f1e6; */
     } 
 } 
 
 .home-content p{
     font-size: 16px;
     margin: 20px 0 40px;
+    /* border: #00FF00 2px solid; */
+    width: 600px;
 }
 
 .home-content .btn-box {
@@ -238,24 +244,23 @@ span::before {
     
 }
 
-.home .img {
+.home .pic {
     display: flex;
-   position: relative;
-    width: 70vh;
-    height: 70vh;
-    right: 0px;
-    bottom: 0px;
+    margin-left: 20px;
+    height: 75vh;
+    right: 50px;
+    bottom: -30px;
+    /* border: #00FF00 2px solid; */
 }
 
  figure img {
     display: flex;
-   position: relative;
-    width: 70vh;
-    height: 70vh;
-    right: -20px;
-    padding-left: 30px;
+   height: 100%;
+    right: -10px;
+    padding-right: 10px;
 	transform: scale(1);
 	transition: .5s ease-in-out;
+    /* border: red 2px solid; */
 }
  figure:hover img {
 transform: scale(1.05);
