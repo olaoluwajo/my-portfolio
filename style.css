@@ -59,7 +59,8 @@ body {
     display: flex;
     align-items: center;
     height: 85vh;
-    padding: 0 10%;
+    padding: 0 0%;
+    padding-left: 10%;
     /* border: #00FF00 2px solid; */
     /* background: yellow; */
 }
@@ -245,19 +246,20 @@ span::before {
 }
 
 .home .pic {
-    display: flex;
-    margin-left: 20px;
+    display: inline-flex;
+    /* margin-left: 20px; */
     height: 75vh;
     right: 50px;
-    bottom: -30px;
+    /* bottom: -50px; */
     /* border: #00FF00 2px solid; */
 }
 
  figure img {
-    display: flex;
+    /* display: flex; */
    height: 100%;
+   /* top: 10px; */
     right: -10px;
-    padding-right: 10px;
+    /* padding-right: 10px; */
 	transform: scale(1);
 	transition: .5s ease-in-out;
     /* border: red 2px solid; */
