@@ -73,7 +73,7 @@ body {
 }
 
 .home-content h1 {
-  /* font-size: 56px; */
+  /* font-size: 48px; */
   font-weight: 600;
   line-height: 1;
 }
@@ -120,9 +120,9 @@ span::before {
 }
 
 .home-content .btn-box {
-  justify-content: space-between;
+  justify-content: space-around;
   display: flex;
-  /* width: 345px; */
+  width: 345px;
   height: 45px;
 }
 
@@ -187,7 +187,7 @@ span::before {
   width: 220px;
   justify-content: space-between;
   display: flex;
-  margin-bottom: -30px;
+  margin-bottom: -40px;
 }
 
 .home-sci a {
@@ -234,6 +234,7 @@ span::before {
   display: inline-flex;
   /* height: 75vh; */
   right: 50px;
+  align-items: center;
   /* border: #00FF00 2px solid; */
 }
 
