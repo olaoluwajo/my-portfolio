@@ -60,6 +60,7 @@ body {
   display: flex;
   align-items: center;
   /* height: 85vh; */
+  padding-top: 30px;
   padding-right: 10%;
   padding-left: 10%;
   /* border: #00FF00 2px solid; */
