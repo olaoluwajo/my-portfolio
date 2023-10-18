@@ -82,7 +82,6 @@ body {
   display: flex;
   font-size: 32px;
   font-weight: 700;
-  /* background: #61B0FF; */
   background: linear-gradient(to right, #61b0ff 0%, #00ff00 25%, #031a6b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -91,9 +90,8 @@ body {
 
 span::before {
   content: "";
-  animation: animate 5s infinite;
+  animation: animate 4s infinite;
   padding-left: 10px;
-  /* font-weight: 600; */
 }
 
 @keyframes animate {
@@ -101,14 +99,18 @@ span::before {
     background: #ff0505;
     -webkit-background-clip: text;
     content: "Developer";
-    /* color: #00FF00; */
+  }
+
+  25% {
+    background: #ff0505;
+    -webkit-background-clip: text;
+    content: "Developer";
   }
 
   100% {
     background: linear-gradient(to right, white 0%, #ff0505 100%);
     -webkit-background-clip: text;
     content: "Engineer";
-    /* color: #e6f1e6; */
   }
 }
 
